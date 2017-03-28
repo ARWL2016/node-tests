@@ -1,19 +1,19 @@
-### Complete Node.js Developer Course - Node Tests
+### Complete Node.js Developer Course(Udemy: Andrew Mead)
+#### Section 6 - Node Tests
 
 https://www.udemy.com/the-complete-nodejs-developer-course-2/learn/v4/content     
-https://github.com/ARWL2016/node-tests      
+https://github.com/ARWL2016/node-tests   
+https://github.com/ARWL2016/compendium/blob/master/reviews/testing 
 
-- Udemy   
-- Andrew Mead  
-- Section 6  
-
-####Technology   
+This module is a demonstration of basic testing methods in Node. 
+ 
+#### Featured Libraries   
 1. Mocha - test framework   
 2. Expect - assertion library
-3. Supertest - for testing http
+3. Supertest - for testing http requests 
 4. Rewire - dependency injection
 
-####Notes 
+#### Notes 
 1. Mocha is not required in a test file. It is used to run tests and define test files - see package.json. It provides the *describe* and *it* structure. 
 2. The basic structure of an expect assertion is `expect().toBe()`
 3. Supertest allows us to make request of the app through a particular route and then expect a particular response. Note that we pass in done to make the test asynchronous. 
